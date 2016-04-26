@@ -1,0 +1,55 @@
+body{
+    margin:0%;
+    text-align:center;
+    position:absolute;
+    height:100%;
+    width:100%;
+}
+header{
+    color:orange;
+    top:0%;
+    height:5%;
+    width:100%;
+}
+input{
+    width:2em;
+}
+#num{
+    width:4em;
+}
+section{
+    position:absolute;
+    width:50%;
+    top:5%;
+    height:45%;
+}
+#equation{
+    background-color:#09B257;
+    left:0%;
+}
+#sequence{
+    background-color:#7612B2;
+    right:0%;
+}
+a{
+    height:90%;
+    top:0%;
+    position:absolute;
+    left:2%;
+    position:absolute;
+    padding:0.5em;
+    background-color:#FFAE19;
+}
+a:hover{
+    background-color:black;
+    color:orange;
+}
+label{
+    top:30%;
+    position:absolute;
+    left:30%;
+    width:65%;
+    background-color:white;
+    overflow:scroll;
+    height:60%;
+}

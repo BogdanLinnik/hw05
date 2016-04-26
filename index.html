@@ -2,16 +2,32 @@
 <html>
     <head>
         <title> </title>
+        <link rel="stylesheet" href=style.css type="text/css"/>
     </head>
     <body>
-        <form>
-                <button onclick="func();">
-                    Quadratic equation
-                </button>
-                <button onclick="func2();">
-                     Fibonacci sequence
-                </button>
-        </form>
+        <header>
+            My homework #7
+        </header>
+        <section id="equation">
+            <p>
+                Your quadratic equation:<br>
+                <input id="a" type="number" placeholder="a">
+                x^2+
+                <input id="b" type="number" placeholder="b">
+                x+
+                <input id="c" type="number" placeholder="c">
+                =0
+            </p><br>
+            <label id="answer"></label><br>
+            <a id="qa">calculate!</a>
+        </section>
+        <section id="sequence">
+            <p>
+                How much numbers from Fibonnachi`s sequence you want see?:<br>
+                <input id="num" type="number" placeholder="number"></p><br>
+            <label id="numbers"></label><br>
+            <a id="fs">calculate!</a>
+        </section>
         <script type="text/javascript" src="script.js"></script>
     </body>
 </html>
